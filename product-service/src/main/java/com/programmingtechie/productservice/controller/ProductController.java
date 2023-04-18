@@ -28,10 +28,6 @@ public class ProductController {
         return productService.getAllProducts();
     }
 
-    @GetMapping
-    @ResponseStatus(HttpStatus.OK)
-    public List<ProductResponse> getAllProducts1() {
-        return productService.getAllProducts();
-    }
+
 
 }
